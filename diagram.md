@@ -1,11 +1,11 @@
 ```mermaid
   sequenceDiagram;
-  Alice->>John: Hello John, how are you?;
-  loop Healthcheck;
-      John->>John: Fight against hypochondria;
+  Best Friend->>LO_Pariwisata: Bro, hotel A gak muncul;
+  loop Cek Web Wilkerstat;
+      LO_Pariwisata->>LO_Pariwisata: Edit Landmark;
   end;
-  Note right of John: Rational thoughts!;
-  John-->>Alice: Great!;
-  John->>Bob: How about you?;
-  Bob-->>John: Jolly good!;
+  Note right of LO_Pariwisata: Semua bisa edit ini!;
+  LO_Pariwisata-->>Best Friend: Sudah beres, om!;
+  LO_Pariwisata->>Bos: Maaf pak, data direktori kapan ditarik ya?;
+  Bos-->>LO_Pariwisata: November ini!;
 ```

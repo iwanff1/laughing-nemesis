@@ -1,8 +1,8 @@
 ```mermaid
   sequenceDiagram;
   Best Friend->>LO_Pariwisata: Bro, hotel A gak muncul;
-  loop Cek Web Wilkerstat;
-      LO_Pariwisata->>LO_Pariwisata: Edit Landmark;
+  loop Web Wilkerstat;
+      LO_Pariwisata->>LO_Pariwisata: Edit Data Landmark Pariwisata;
   end;
   Note right of LO_Pariwisata: Semua bisa edit ini!;
   LO_Pariwisata-->>Best Friend: Sudah beres, om!;

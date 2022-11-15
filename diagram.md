@@ -2,7 +2,7 @@
   sequenceDiagram;
   Best Friend->>LO_Pariwisata: Bro, hotel A gak muncul;
   loop Web Wilkerstat;
-      LO_Pariwisata->>LO_Pariwisata: Edit Data Landmark Pariwisata;
+      Best Friend->>Best Friend: Edit Data Landmark Pariwisata;
   end;
   Note right of LO_Pariwisata: Semua bisa edit ini!;
   LO_Pariwisata-->>Best Friend: Ok sudah beres ya, om. Ditunggu sinkronisasinya 1 - 2 jam!;
